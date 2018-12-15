@@ -1,0 +1,74 @@
+.subject{
+width:800px;
+height:600px;
+/* border:1px solid red; */
+/* text-align:center; */
+margin:150px auto;
+}
+.subject #p-1{
+font-size:30px;
+text-align:center;
+}
+.subject img{
+margin-left:150px;
+}
+/***/
+	 #parent {
+    /* background: url('yourimage') no-repeat; */
+    width: 300px;
+    height: 50px;
+    /* overflow: hidden; */
+}
+
+#zhongguo select {
+    background: transparent;
+    border: 1px solid #d3d3d3;
+    /*padding-left:10px;*/
+    width: 350px;
+    height: 50px;
+			font-size:20px;
+}
+#p-2{
+padding:5px 0;
+}
+.subject-1{
+width:350px;
+height:450px;
+/* border:1px solid red; */
+margin:0 auto;
+}
+input{
+width: 348px;
+    height: 50px;
+		 border: 1px solid #d3d3d3;
+         color:gray;
+         margin-bottom:20px;
+}
+#p-3{
+width: 348px;
+    height: 40px;
+		 border: 1px solid #d3d3d3;
+		 background: red;
+}
+#p-4{
+text-decoration:none;
+text-align:center;
+line-height:40px;
+color:white;
+}
+#p-3:hover{
+background: orange;
+}
+.p-5{
+	width: 450px;
+    height: 40px;
+		/* border:1px solid red; */
+		margin-left:-40px;
+		margin-top:60px;
+}
+.p-5 a{
+text-decoration:none;
+text-align:center;
+line-height:10px;
+color:gray;
+}

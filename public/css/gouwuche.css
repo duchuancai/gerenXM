@@ -1,0 +1,157 @@
+body{
+background: #f6f6f6;
+}
+.shopping-cart{
+width:1900px;
+height:100px;
+border-bottom:2px solid red;
+}
+.shopping-cart li{
+float:left;
+list-style:none;
+}
+.shopping-cart li img{
+margin:20px 0px 0px 300px;
+}
+.shopping-cart li:nth-child(2){
+margin:25px 0px 0px 30px;
+font-size:30px;
+}
+.shopping-cart li:nth-child(3){
+margin:30px 0px 0px 900px;
+font-size:14px;
+color:#a3a3a3;
+}
+.shopping-cart li b{
+font-size:11px;
+margin:0 6px 0 6px;
+color:#a3a3a3;
+}
+/*subject*/
+.subject{
+width:800px;
+height:500px;
+/* border:1px solid red; */
+margin:0 auto;
+}
+.subject img{
+margin-top:100px;
+float:left;
+}
+.subject-1{
+width:350px;
+height:200px;
+float:left;
+margin:150px 0 0 50px;
+}
+.subject-1 h2{
+font-size:35px;
+margin:0;
+padding:0;
+color:#a3a3a3;
+}
+.subject-1 p{
+font-size:18px;
+margin:10px 0;
+color:#b3b3b3;
+}
+.subject-1 ul li{
+width:160px;
+height:50px;
+float:left;
+list-style:none;
+text-align:center;
+line-height:50px;
+}
+.subject-1 ul #li1{
+background: red;
+margin-left:-40px;
+color:white;
+}
+.subject-1 ul #li2{
+border:1px solid red;
+margin-left:20px;
+color:orange;
+}
+/**/
+.tuijian{
+width:1200px;
+height:800px;
+/* border:1px solid blue; */
+margin:0 auto;
+}
+.tuijian-1{
+width:1200px;
+height:100px;
+/* border:1px solid orange; */
+margin:0 auto;
+}
+
+.tuijian-1 .hengxian1{
+width:400px;
+height:1px;
+border-top:1px solid #a3a3a3;
+margin-top:50px;
+float:left;
+}
+#p-1{
+float:left;
+margin:30px 130px;
+color:gray;
+font-size:30px;
+}
+.tuijian-1 .hengxian2{
+width:400px;
+height:1px;
+border-top:1px solid #a3a3a3;
+margin-top:50px;
+float:left;
+}
+/**/
+.lb{
+width:1200px;
+height:640px;
+/* border:1px solid blue; */
+display:flex;
+flex-wrap:wrap;/*换行显示*/
+justify-content:space-between;/*两端对齐*/
+}
+.lb div{
+width:230px;
+height:310px;
+background: white;
+position:relative;
+}
+
+.lb div p{
+text-align:center;
+font-size:14px;
+/* margin-top:4px; */
+}
+.lb div #wawa{
+margin:50px 0 30px 60px;
+width:100px;
+height:100px;
+}
+.lb div #jg{
+color:red;
+}
+#jrgwc{
+width:120px;
+height:30px;
+border:1px solid red;
+line-height:30px;
+color:red;
+background: white;
+position:absolute; 
+margin:-30px 51px;
+display:none;
+} 
+.lb div:hover #jrgwc{
+display:block;
+}
+#jrgwc:hover{
+background: red;
+color:white;
+}
+/*weibu*/

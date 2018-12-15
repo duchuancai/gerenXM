@@ -1,0 +1,917 @@
+img,p{
+	margin:0;
+	padding:0;
+}
+#head{
+	width:1900px;
+	height:50px;
+	background:#090909;
+}
+#head ul li {
+	float:left;
+	margin-top:10px;
+	margin-left:12px;
+	list-style:none;
+}
+#head ul li a{
+	text-decoration:none;
+	font-size:13px;
+	color:#a4a4a4;
+}
+#head ul #denglu{
+	margin-left:360px;
+}
+#head ul #xiaomishangcheng{
+	margin-left:340px;
+}
+#gouwuche-logo{
+	margin:0;
+	padding:0;
+	float:right;
+	width:130px;
+	height:50px;
+	background:#5a5a5a;
+	margin-right:356px;
+	position:relative;
+	z-index:999
+}
+#gouwuche-button{
+	width:300px;
+	height:100px;
+	position:absolute;
+	background: #f2f2f2;
+	right:0px;
+	top:50px;
+	display:none;
+	box-shadow:3px 3px 3px gray;
+}
+#gouwuche-logo:hover #gouwuche-button{
+	display:block;
+}
+#head ul li:hover a{
+	color: #eaeaea;
+}
+#gouwuche-logo:hover p{
+	color:red;
+}
+/*#gouwuche-logo:hover img{
+background:red;*/
+#gouwuche-button #pdi{
+	margin-top:30px;
+	color:#434343;
+}
+#gouwuche-logo img{
+	width:30px;
+	height:30px;
+	margin-top:10px;
+	margin-left:15px;
+}
+#gouwuche-logo p{
+	float:right;
+	margin-top:15px;
+	margin-right:10px;
+	font-size:15px;
+	color:#d9d9d9;
+}
+/*导航*/
+#logo-mi{
+	width:1200px;
+	height:100px;
+	/* border:1px solid red; */
+	margin:0 auto;
+}
+#logo-mi img{
+	float:left;
+	width:60px;
+	height:60px;
+	margin-top:20px;
+}
+#kongbai{
+	float:left;
+	width:198px;
+	height:98px;
+	/* background: red; */
+	/* border:1px solid red; */
+	margin:0;
+}
+#kongbai img{
+	width:170px;
+	height:40px;
+	padding:10px 9px 10px 20px;
+}
+#daohang{
+	float:left;
+	width:600px;
+	height:100px;
+}
+#daohang ul li{
+	float:left;
+	list-style:none;
+	margin-top:35px;
+	margin-left:12px;
+}
+#daohang ul li a{
+	text-decoration:none;
+	padding:31px 0 49px 0;
+	color:#090909;
+}
+#daohang ul li:hover a{
+	color:orange;
+}
+/*导航阴影部分*/
+.daohang-top{
+	width:1900px;
+	height:250px;
+	position:absolute;
+	border:1px solid #cacaca;
+	background: #fff;
+	top:158px;
+	right:1px;
+	display:none;
+	z-index:999;
+	box-shadow:5px 5px 6px  gray;
+}
+#daohang ul li:hover .daohang-top{
+	display:block;
+}
+/*小米手机下拉列表-1*/
+	.daohang-top-1{
+	float:left;
+	width:180px;
+	height:250px;
+	background: white;
+	position:relative;
+	margin-left:350px;
+	/* z-index:5; */
+	}
+	.daohang-top-1 .daohang-top-1-1{
+	text-align:center;
+	border:1px solid red;
+	width:80px;
+	height:20px;
+	margin-left:50px;
+	color:orange;
+	}
+	.daohang-top-1 #img1{
+	width:120px;
+	height:120px;
+	margin-left:30px;
+	}
+	.daohang-top-1 #p1{
+	height:20px;
+	text-align:center;
+	margin:0 0 0 56px;
+	padding:0;
+	position:absolute;
+	top:205px; 
+	font-size:14px;
+	color:orange;
+	}
+	.daohang-top-1 #p2{
+	height:20px;
+	text-align:center;
+	margin:0 0 0 48px;
+	padding:0;
+	position:absolute;
+	top:182px; 
+	font-size:14px;
+	}
+	.shuxian1{
+	float:left;
+	width:1px;
+	height:110px;
+	background: #cacaca;
+	margin-left:10px;
+	margin-top:60px;
+
+	}
+/*小米手机下拉列表-2*/
+	.daohang-top-2{
+	float:left;
+	width:180px;
+	height:250px;
+	/* background: blue; */
+	position:relative;
+	margin-left:20px;
+	}
+
+	.daohang-top-2 .daohang-top-1-1{
+	text-align:center;
+	border:1px solid red;
+	width:80px;
+	height:20px;
+	margin-left:50px;
+	color:orange;
+	}
+	.daohang-top-2 #img1{
+	width:120px;
+	height:120px;
+	margin-left:30px;
+	}
+	.daohang-top-2 #p1{
+	height:20px;
+	text-align:center;
+	margin:0 0 0 56px;
+	padding:0;
+	position:absolute;
+	top:205px; 
+	font-size:14px;
+	color:orange;
+	}
+	.daohang-top-2 #p3{
+	height:20px;
+	text-align:center;
+	margin:0 0 0 30px;
+	padding:0;
+	position:absolute;
+	top:182px; 
+	font-size:14px;
+	}
+/*小米手机下拉列表-3*/
+	.daohang-top-2 .daohang-top-1-3{
+	text-align:center;
+	/* border:1px solid red; */
+	width:80px;
+	height:20px;
+	margin-left:50px;
+	color:orange;
+	}
+	.daohang-top-2 #p4{
+	height:20px;
+	text-align:center;
+	margin:0 0 0 68px;
+	padding:0;
+	position:absolute;
+	top:182px; 
+	font-size:14px;
+	}
+/*小米手机下拉列表-4*/
+	.daohang-top-2 .daohang-top-1-4{
+	text-align:center;
+	/* border:1px solid red; */
+	width:80px;
+	height:20px;
+	margin-left:50px;
+	color:orange;
+	}
+	.daohang-top-2 #p5{
+	height:20px;
+	text-align:center;
+	margin:0 0 0 60px;
+	padding:0;
+	position:absolute;
+	top:182px; 
+	font-size:14px;
+	}
+/*小米手机下拉列表-5*/
+	.daohang-top-2 .daohang-top-1-5{
+	text-align:center;
+	/* border:1px solid red; */
+	width:80px;
+	height:20px;
+	margin-left:50px;
+	color:orange;
+	}
+	.daohang-top-2 #p6{
+	height:20px;
+	text-align:center;
+	margin:0 0 0 55px;
+	padding:0;
+	position:absolute;
+	top:182px; 
+	font-size:14px;
+	}
+/*小米手机下拉列表-6*/
+
+	.daohang-top-2 .daohang-top-1-6{
+	text-align:center;
+	/* border:1px solid red; */
+	width:80px;
+	height:20px;
+	margin-left:50px;
+	color:orange;
+	}
+	.daohang-top-2 #p7{
+	height:20px;
+	text-align:center;
+	margin:0 0 0 50px;
+	padding:0;
+	position:absolute;
+	top:182px; 
+	font-size:14px;
+	}
+/*搜索框内容*/
+#sousuo{
+	float:right;
+	width:330px;
+	height:60px;
+	/* border:1px solid blue; */
+	margin-top:20px;
+	padding:0px;
+	position:relative;
+	background:#f3f3f3 ;
+}
+#sousuo input{
+	width:260px;
+	height:57px;
+	margin:0;
+	padding:0;
+}
+#sousuo #sousuo-min{
+	width:120px;
+	height:20px;
+	position:absolute;
+	top:20px;
+	right:80px;
+/* border:1px solid blue; */
+}
+#sousuo #sousuo-min a#xm8{
+	font-size:13px;
+	background:#e2e2e2;
+	padding-right:5px;
+	text-decoration:none;
+	color:gray;
+}
+#sousuo #sousuo-min a#xm8:hover{
+	color:white;
+	background: orange;
+	font-size:10px;
+}
+#sousuo #sousuo-min a#xm2s{
+	font-size:13px;
+	background:#e2e2e2;
+	text-decoration:none;
+	color:gray;
+}
+#sousuo #sousuo-min a#xm2s:hover{
+	color:white;
+	background: orange;
+	font-size:10px;
+}
+/*放大镜*/
+#fdj{
+	width:64px;
+	height:59px;
+	border:1px solid #a7a7a7;
+	float:right;
+}
+#fdj img{
+	width:25px;
+	height:25px;
+	margin-left:20px;
+}
+#fdj:hover{
+	background: red;
+}
+/*中间大图部分*/
+#dzt{
+	width:1200px;
+	height:490px;
+	/* border:1px solid red; */
+	margin:0 auto;
+	display:flex;
+}
+/*中间大图左边部分*/
+#dzt-left{
+	/* float:left; */
+	width:250px;
+	height:490px;
+	background:black;
+	position:relative;
+}
+#dzt-left ul{
+	margin:0;
+	padding:18px 0 18px 0;
+	position:relative;
+}
+#dzt-left ul li{
+	list-style:none;
+	padding:10px 0 10px 40px;
+	margin:0;
+}
+#dzt-left ul li a{
+	text-decoration:none;
+	color:white;
+	font-size:15px;
+}
+#dzt-left ul li img{
+	padding:0;
+	margin:0 0 0 100px;
+}
+#dzt-left ul li .img-1{
+	padding:0;
+	margin:0 0 0 85px;
+}
+/*左边隐藏部分*/
+.dcc{
+	width:950px;
+	height:490px;
+	background:white;
+	border:1px solid gray;
+	left:250px;
+	bottom:-15px;
+	position:absolute;
+	display:none;
+	box-shadow: 5px 5px 6px gray;
+	z-index:999;
+    /* background-image:linear-gradient(to top,gray 50%, white 100%); */
+}
+.dcc .dcc1{
+	width:220px;
+	height:490px;
+	margin:0;
+	padding:0;
+	/* border:1px solid yellow; */
+	float:left;
+}
+.dcc .dcc2{
+	width:220px;
+	height:490px;
+	margin:0;
+	padding:0;
+	
+	float:left;
+}
+.dcc .dcc3{
+	width:220px;
+	height:490px;
+	margin:0;
+	padding:0;
+	
+	float:left;
+}
+.dcc .dcc4{
+	width:220px;
+	height:490px;
+	margin:0;
+	padding:0;
+	
+	float:left;
+}
+
+.dcc div{
+	height:45px;
+	width:200px;
+	margin-top:28px;
+	/* border:1px solid red; */
+}
+.dcc div #img1{
+	height:45px;
+	width:60px;
+	margin-left:0px;
+	/* padding:0; */
+	float:left;
+	text-align:center;
+}
+.dcc div p{
+	margin-top:10px;
+	color:gray;
+}
+/**/
+.dcc div p:hover{
+	color:orange;
+}
+/*点击事件*/
+#dzt-left ul li:hover{
+	background: orange;
+}
+#dzt-left ul li:hover .dcc{
+	display:block;
+}
+/*中间大图右边部分*/
+#dzt-right{
+	/* float:left; */
+	width:950px;
+	height:490px;
+	/* background:orange; */
+	/* border:1px solid orange; */
+	position:relative;
+	
+}
+#dzt-right img{
+	width:949px;
+	height:489px;
+	position:absolute;
+	top:0 ;
+	left:0;
+	transition:all 1s linear; 
+	opacity:0;
+}
+/* #dzt-right img.show{
+opacity:1; 
+} */
+/*轮播小圆点*/
+.circle{
+	position: absolute;
+	top:600px;
+	right:800px;
+}
+.circle>li{
+	list-style:none;
+	width: 10px;
+	height: 10px;
+	border:1px solid #5a5a5a;
+	border-radius:50%;
+	float: left;
+	margin-left:30px;
+}
+.active{
+	background: blue;
+}
+/*大图下面的四张小图*/
+.img-4{
+	width:1200px;
+	height:180px;
+	/* border:1px solid red; */
+	margin:15px auto;
+	display:flex;/*弹性容器*/
+	justify-content:space-between;/*两端对齐*/
+}
+/*第一张图里面的内容*/
+.img-4 #img-4-1{
+	width:250px;
+	height:180px;
+	background: black;
+}
+#img-4-1-1{
+	width:79px;
+	height:85px;
+	float:left;
+	border:1px solid black;
+}
+ #img-4-1-2{
+	width:1px;
+	height:70px;
+	background: #585858;
+	float:left;
+	margin:8px 1px;
+}
+ #img-4-1-3 {
+	width:70px;
+	height:1px;
+	background: #585858;
+	float:left;
+	margin:1px 6px;
+}
+.img-4 #img-4-1 #img-4-1-1 a{
+	margin-left:10px;
+	line-height:80px;
+	color:#9b9b9b;
+	font-weight:bold;/*字体放大*/
+	font-size:15px;
+}
+.img-4 #img-4-1 #img-4-1-1 a:hover{
+	color:white;
+}
+/*第二张图里面的内容*/
+/*.img-4 #img-4-2-1{
+width:300px;
+height:180px;
+}*/
+.img-4 #img-4-2-1 img{
+	width:300px;
+	height:180px;
+}
+/*.img-4 #img-4-2-2{
+width:300px;
+height:180px;
+background: orange;
+}*/
+.img-4 #img-4-2-2 img{
+	width:300px;
+	height:180px;
+}
+/*.img-4 #img-4-2-3{
+width:300px;
+height:180px;
+background: orange;
+}*/
+.img-4 #img-4-2-3 img{
+	width:300px;
+	height:180px;
+}
+/*广告*/
+.gg-img{
+width:1200px;
+height:100px;
+margin:0 auto 20px auto;
+background: red;
+}
+.gg-img img{
+width:1200px;
+height:100px;
+}
+/*手机*/
+.xxx{
+width:1204px;
+height:40px;
+margin:0 auto;
+padding:20px 0;
+}
+.xxx span:nth-child(1){
+font-size:25px;
+}
+.xxx span:nth-child(2){
+margin-left:1050px;
+}
+.bjdtp-1{
+width:1900px;
+height:700px;
+background:#f3f3f3 ;
+}
+.shouji{
+width:1210px;
+height:600px;
+/* border:1px solid red; */
+margin:0 auto;
+position:relative;
+}
+.xm3{
+width:240px;
+height:600px;
+transition:all 0.2s linear;
+}
+.xm3 img{
+width:240px;
+height:590px;
+}
+.xm3:hover{
+transform:translateY(-5px);
+}
+.xm3-1{
+width:958px;
+height:600px;
+/* background: orange; */
+position:absolute;
+left:246px;
+bottom:0px;
+display:flex;
+flex-wrap:wrap;/*换行显示*/
+justify-content:space-between;/*两端对齐*/
+}
+.xm3-1 div{
+width:230px;
+height:290px;
+/* border:1px solid red; */
+text-align:center;
+background: white;
+transition:all 0.2s linear;
+}
+.xm3-1 div:hover{
+transform:translateY(-5px)
+}
+
+.xm3-1 div img{
+width:130px;
+height:120px;
+margin-bottom:20px;
+}
+.xm3-1 div #xp{
+width:60px;
+height:10px;
+line-height:10px;
+margin:0 auto 15px auto;
+background: green;
+color:white;
+}
+.xm3-1 div p{
+font-size:13px;
+}
+.xm3-1 div a{
+color:black;
+}
+.xm3-1 div #xp-1{
+color:#a3a3a3;
+}
+.xm3-1 div #xp-2{
+color:red;
+}
+.xm3-1 div #xp-3{
+width:60px;
+height:10px;
+line-height:10px;
+margin:0 auto 15px auto;
+background: red;
+color:white;
+}
+/*ship*/
+.louceng2{
+background: #f3f3f3;
+}
+.ship{
+width:1200px;
+height:420px;
+/* background: red; */
+margin:0 auto;
+position:relative;
+/* display:flex; */
+}
+.ship ul{
+display:flex;
+
+}
+.ship ul li{
+margin-right:13px;
+background: white;
+transition:all 0.2s linear;
+z-index:-0;
+}
+.ship ul li img{
+width:290px;
+height:200px;
+
+}
+.ship ul li p{
+text-align:center;
+font-size:14px;
+}
+.ship ul li p:nth-child(2){
+padding-top:20px;
+}
+.ship ul li p:nth-child(3){
+padding-bottom:20px;
+color:lightgray;
+}
+.ship ul li p a{
+color:black;
+}
+.ship ul li:hover{
+transform:translateY(-5px)
+}
+.spbf{
+width:800px;
+height:600px;
+display:none;
+background:red;
+position:absolute;
+/* bottom:-700px; */
+/* right:500px; */
+top:1600px;
+z-index:-1;
+}
+.ship ul li:hover .spbf{
+display:block;
+z-index:100;
+/* top:800px; */
+}
+/***尾部
+ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+#bq-xinxi-0{
+	width:1900px;
+	height:180px;
+	background:#f6f6f6 ;
+}**/
+/*侧边栏*/
+.cebianlan{
+width:80px;
+height:244px;
+position:fixed;/*固定定位*/
+left:1822px;
+bottom:30%;
+background:#f3f3f3;
+}
+/*个人中心*/
+.cebianlan #cbl-1{
+width:80px;
+height:80px;
+margin:1px 1px;
+background: white;
+}
+.cebianlan #cbl-1 #cbl-1-1{
+width:30px;
+height:30px;
+margin: 10px 25px 10px 25px;
+
+}
+.cebianlan #cbl-1 #cbl-1-2{
+width:30px;
+height:30px;
+margin: -44px 25px 10px 25px;
+float:left;
+opacity:0;
+}
+.cebianlan #cbl-1 a{
+font-size:15px;
+color:gray;
+margin-left:10px;
+float:left;
+}
+/*个人中心---点击事件*/
+.cebianlan #cbl-1:hover a{
+	color:orange;
+}
+.cebianlan #cbl-1:hover #cbl-1-2{
+	opacity:.9;
+}
+/*练习客服*/
+.cebianlan #cbl-2{
+	width:80px;
+	height:80px;
+	margin:1px 1px;
+	background: white;
+}
+.cebianlan #cbl-2 #cbl-2-3{
+	width:30px;
+	height:30px;
+	margin: 10px 25px 10px 25px;
+}
+.cebianlan #cbl-2 #cbl-2-4{
+	width:30px;
+	height:30px;
+	margin: -44px 25px 10px 25px;
+	float:left;
+	opacity:0;
+}
+.cebianlan #cbl-2 a{
+	font-size:15px;
+	color:gray;
+	margin-left:10px;
+	float:left;
+}
+/*个人中心---点击事件*/
+.cebianlan #cbl-2:hover a{
+	color:orange;
+}
+.cebianlan #cbl-2:hover #cbl-2-4{
+	opacity:.9;
+}
+/*购物车*/
+.cebianlan #cbl-3{
+	width:80px;
+	height:80px;
+	margin:1px 1px;
+	background: white;
+}
+.cebianlan #cbl-3 #cbl-3-5{
+	width:30px;
+	height:30px;
+	margin: 10px 25px 10px 25px;
+}
+.cebianlan #cbl-3 #cbl-3-6{
+	width:30px;
+	height:30px;
+	margin: -44px 25px 10px 25px;
+	float:left;
+	opacity:0;
+}
+.cebianlan #cbl-3 a{
+	font-size:15px;
+	color:gray;
+	margin-left:20px;
+	float:left;
+}
+/*个人中心---点击事件*/
+.cebianlan #cbl-3:hover a{
+	color:orange;
+}
+.cebianlan #cbl-3:hover #cbl-3-6{
+	opacity:.9;
+}
+/*返回顶部*/
+#cbl-4{
+width:80px;
+height:80px;
+position:fixed;/*固定定位*/
+left:1822px;
+bottom:19%;
+border:1px solid #f3f3f3;
+}
+ #cbl-4{
+	width:80px;
+	height:80px;
+	margin:15px 1px 1px 1px;
+	background: white;
+	display:none;
+}
+ #cbl-4 #cbl-4-7{
+	width:30px;
+	height:30px;
+	margin: 10px 25px 10px 25px;
+}
+#cbl-4 #cbl-4-8{
+	width:30px;
+	height:30px;
+	margin: -44px 25px 10px 25px;
+	float:left;
+	opacity:0;
+}
+ #cbl-4 a{
+	font-size:15px;
+	color:gray;
+	margin-left:10px;
+	float:left;
+}
+/*返回顶部---点击事件*/
+ #cbl-4:hover a{
+	color:orange;
+}
+ #cbl-4:hover #cbl-4-8{
+	opacity:.9;
+}
