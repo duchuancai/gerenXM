@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+	<link rel="stylesheet" href="css/denglu.css">
+	<!-- <script src="js/denglu.js"></script> -->
+ </head>
+ <body>
+ <!--头部-->
+	<div class="head">
+		<a href=""><img src="img/mi-001.png" alt=""></a>
+		<a href=""><h3>小米商城</h3></a><br>
+		<span>让每个人都能享受科技的乐趣</span>
+	</div>
+	<!--主体-->
+	<div class="subject">
+		<div class="biaodan" @keyup.13="signin()>
+			<a class="zhdl" href=""><p>账号登录</p></a>
+			<div class="sx-1"></div>
+			<a class="smdl" href=""><p>扫码登录</p></a>
+			<input class="youxiang" type="text" placeholder="邮箱/手机号码/小米ID"name="uname" value="">
+			<span></span>
+			<input class="mima" type="text" placeholder="密码" name="upwd" value="">
+			<span ></span>
+		<div class="rrr">
+			<input class="yzm"type="text" type="text" placeholder="验证码">
+			<canvas id="dcc" width="120" height="30"></canvas></div>
+			<a href=""><div class="denglu" @click="signin()">登录</div></a>
+		
+			<a id="p-1" href=""><p>手机短信登录/注册</p></a>
+			<a id="p-2" href=""><p>立即注册<span>&nbsp;&nbsp;&nbsp;|</span></p></a>
+			<a id="p-3" href=""><p>忘记密码?</p></a>
+			<div class="qita">
+				<div class="hengxian1"></div>
+				<p>其他方式登录</p>
+				<div class="hengxian2"></div>
+			</div>
+			<div class="xtb">
+				<a href=""><img src="img/qq.png" alt=""></a>
+				<a href=""><img src="img/zfb.png" alt=""></a>
+				<a href=""><img src="img/wb.png" alt=""></a>
+				<a href=""><img src="img/wx.png" alt=""></a>
+			</div>
+		</div>
+	</div>
+	<!--weibu-->
+	<ul class="tail">
+		<a href=""><li>简体<b>|</b></li></a>
+		<a href=""><li>繁体<b>|</b></li></a>
+		<a href=""><li>English<b>|</b></li></a>
+		<a href=""><li>常见问题<b>|</b></li></a>
+		<a href=""><li>隐私问题</li></a>
+	</ul><br>
+	<p class="weibu">小米公司版权所有-京ICP备10046444-<a href=""><img src="img/ghs.png" alt=""></a>京公网安备11010802020134号-京ICP证110507号</p>
+	<script src="js/jquery-3.2.1.js"></script>
+	<script src="js/ajax.js"></script>
+	<script src="js/denglu.js"></script>
+ </body>
+ </html>
